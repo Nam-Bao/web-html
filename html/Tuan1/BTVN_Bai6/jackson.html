@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: lightskyblue;
+        }
+    </style>
+</head>
+<body>
+    <center><h2>Registration Form</h2></center>
+    <center>Register your Jackson Electronics product here</center>
+    
+        <form action="">
+            First name : 
+            <input type="text" name="firstname">
+            Last name: 
+            <input type="text" name="lastname"><br>
+            Address #1:
+            <input type="text" name="address"><br>
+            Address #2:
+            <input type="text" name="address"><br>
+            City:
+            <input type="text" name="city">
+            State:
+            <input type="text" name="state">
+            Zip:
+            <input type="text " name="zip"><br>
+            Country:
+            <input type="text" name="country" placeholder="United States">
+            <hr>
+            Product:
+            <select name="Product" size="1" >
+                <option value="1" selected>ScanMaster</option>
+            </select><br>
+            Date Purchased:
+            <input type="text" name="date"><br>
+            Serial #:
+            <input type="text" name="serial"> <br>
+            Used for:
+                <center>
+                    <input type="radio" name="used" value="home">Home 
+                    <input type="radio" name="used" value="eud">Educational Institution <br>
+                    <input type="radio" name="used" value="business" checked>Business
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    <input type="radio" name="used" value="other">Other <br>
+                    <input type="radio" name="used" value="government">Government <br>
+                </center>
+            System (check all that apply):
+                <center>
+                    <input type="checkbox" name="system" value="win">Windows
+                    <input type="checkbox" name="system" value="unix">UNIX <br>
+                    <input type="checkbox" name="system" value="macintosh">Macintosh
+                    <input type="checkbox" name="system" value="other">Other <hr>
+                </center>
+            <form action="">
+                Comments?:
+                <center><textarea name="comment" rows="5" cols="50"></textarea></center>
+            </form>
+            <center>
+                <input type="submit" value="Click to Register">
+                <input type="button" value="Click to cancel" onclick="cancelform()">
+            </center>  
+        </form>
+   
+</body>
+</html>
