@@ -1,0 +1,36 @@
+body{
+    font-family: Verdana,"Minion Web", Helvetica, sans-serif; 
+    font-size: 1em;
+    text-align: justify;
+}
+h1 { text-align: center; font-family: Arial; }
+h2 { color: #440000; 
+    text-align: center;
+    font-family: Arial Black, Arial, Helvetica;
+    }
+p{text-align: center; color: red;}
+#element_id{text-align: center; color:red;}
+.center {text-align: center; color: red;}
+h1, h2, p {text-align: center; color: red;}
+a:link {
+    color: #FF0000;
+}
+a:visited {
+    color: #00FF00;
+}
+a:hover {
+    color: #FF00FF;
+}
+    
+a:active {
+    color: #0000FF;
+}
+a:hover { color: red; }
+p:first-line { text-transform: uppercase; }
+.title:before { content: "»"; }
+.title:after { content: "«"; }
+p a {text-decoration: underline}
+p * {color: black}
+#p1 {background-color: #ff0000;} /* red */
+#p2 {background-color: #00ff00;} /* green */
+#p3 {background-color: #0000ff;} 
